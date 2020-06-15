@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU,CACN,WAAW,CAAE,eAAe,CAC5B,GAAG,CAAE,gCAAgC,CAEzC,UAAU,CACN,WAAW,CAAE,WAAW,CACxB,GAAG,CAAE,mCAAmC,CDJ5C,AAAA,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CAAG,AAGZ,AAAD,WAAK,AAAC,CACF,OAAO,CAAE,IAAI,CAAG",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_fonts.sass"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
