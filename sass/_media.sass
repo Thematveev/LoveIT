@@ -40,6 +40,17 @@
                     height: 69px
                     font-size: 28px
 
+    .ways
+        padding-top: 0
+        &_blocks
+            &_item
+                border: 10px solid black
+                height: 450px
+                img
+                    height: 90px
+                span
+                    font-size: 40px
+
 @media screen and (max-width: 768px)
     .header
         &_menu
@@ -63,6 +74,23 @@
                     height: 69px
                     font-size: 28px
 
+    .ways
+        &_title
+            margin: 0
+            text-align: center
+        &_blocks
+            display: block
+            &_item
+                margin: 0 auto
+                height: 600px
+                width: 400px
+                margin-bottom: 50px
+                padding-top: 100px
+                img
+                    height: 140px
+                span
+                    font-size: 40px
+
 @media screen and (max-width: 425px)
     .header
         &_menu
@@ -78,6 +106,14 @@
                     height: 65px
                     font-size: 24px
 
+    .ways
+        &_title
+            font-size: 50px
+        &_blocks
+            &_item
+                width: 340px
+                height: 500px
+
 @media screen and (max-width: 375px)
     .header
         &_menu
@@ -91,6 +127,13 @@
                     width: 215px
                     height: 55px
                     font-size: 19px
+    
+    .ways
+        &_title
+        &_blocks
+            &_item
+                max-width: 260px
+                height: 450px
 
 @media screen and (max-height: 600px)
     .header
